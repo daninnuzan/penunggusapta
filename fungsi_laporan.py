@@ -11,5 +11,5 @@ Original file is located at
 def cetak_laporan(data_mahasiswa):
     print("=== LAPORAN DATA MAHASISWA ===")
     for i, mhs in enumerate(data_mahasiswa, start=1):
-        print(f"{i}. Nama: {mhs['nama']}, Umur: {mhs['umur']}, Jurusan: {mhs['jurusan']}")
+        print(f"{i}. Nama: {mhs['nam']}, Umur: {mhs['umur']}, Jurusan: {mhs['jurusan']}")
     print(f"Total mahasiswa: {len(data_mahasiswa)}")

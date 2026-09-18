@@ -10,7 +10,7 @@ Original file is located at
 # input_data.py
 data_mahasiswa = []
 
-def tambah_mahasiswa(nama, umur, nim):
+def tambah_mahasiswa(nama, umur, mint):
     mahasiswa = {
         "nama": nama,
         "umur": umur,
